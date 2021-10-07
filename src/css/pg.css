@@ -1,0 +1,133 @@
+/* for PG */
+
+.aside-history-link {
+  color: white;
+  background-color: rgb(14, 76, 109);
+  display: block;
+  margin-bottom: 6px;
+  padding: 7px;
+  border-radius: 4px;
+}
+.aside-history-link:hover {
+  color: white;
+}
+
+.highlight-item li {
+  min-width: 7rem;
+}
+
+
+
+.noDataText{
+  color: #BA434E;
+}
+
+/* tabulator tooltip styles */
+.tabulator-tooltip {
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+  padding: 4px 8px;
+  font-size: 13px;
+  border-radius: 4px;
+  z-index: 10;
+}
+
+.tabulator-arrow-tooltip,
+.tabulator-arrow-tooltip::before {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: inherit;
+}
+
+.tabulator-arrow-tooltip {
+  visibility: hidden;
+}
+
+.tabulator-arrow-tooltip::before {
+  visibility: visible;
+  content: "";
+  transform: rotate(45deg);
+}
+
+.tabulator-tooltip[data-popper-placement^="top"] > .tabulator-arrow-tooltip {
+  bottom: -4px;
+}
+
+.tabulator-tooltip[data-popper-placement^="bottom"] > .tabulator-arrow-tooltip {
+  top: -4px;
+}
+
+.tabulator-tooltip[data-popper-placement^="left"] > .tabulator-arrow-tooltip {
+  right: -4px;
+}
+
+.tabulator-tooltip[data-popper-placement^="right"] > .tabulator-arrow-tooltip {
+  left: -4px;
+}
+
+.tabulator-tooltip {
+  display: none;
+}
+
+.tabulator-tooltip[data-show] {
+  display: block;
+}
+
+
+/* tabs style */
+.nav-item a.nav-link.active {
+  background: rgba(136, 162, 170, 0.9);
+  color: #fff;
+}
+
+
+/* tabulator styles */
+.tabulator-page-size{
+  margin-left: 3px !important;
+}
+
+.tabulator-page{
+  margin-left: 3px !important;
+  margin-right: 3px !important;
+  border-radius: 3px;
+  border: 1px solid #dee2e6 !important;
+}
+
+.tabulator-page-num, .tabulator-page-size{
+  outline: none;
+  border-radius: 5px;
+}
+
+/* search form first radio*/
+.radios > :first-child{
+  margin-left: 2rem;
+}
+
+@media only screen and (min-width: 1200px) {
+}
+
+@media only screen and (max-width: 1199px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (max-width: 991px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 576px) {
+}
+
+@media only screen and (max-width: 440px) {
+}
+
+@media only screen and (max-width: 420px) {
+}
